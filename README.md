@@ -10,3 +10,8 @@ So to use it properly you can add Authentication to make an individual Authentic
 
 If you want to test this project we considered that the user has UserId as "1". So in your Database you need to add a user with UserId = 1. 
 enjoy.
+
+Features: 
+
+ASP.NET Core 5
+Bootstrap 4
