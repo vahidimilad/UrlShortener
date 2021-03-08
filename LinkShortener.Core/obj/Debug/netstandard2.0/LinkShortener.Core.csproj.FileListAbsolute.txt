@@ -1,0 +1,12 @@
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\bin\Debug\netstandard2.0\LinkShortener.Core.deps.json
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\bin\Debug\netstandard2.0\LinkShortener.Core.dll
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\bin\Debug\netstandard2.0\LinkShortener.Core.pdb
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\bin\Debug\netstandard2.0\LinkShortener.DataLayer.dll
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\bin\Debug\netstandard2.0\LinkShortener.DataLayer.pdb
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.csprojAssemblyReference.cache
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.AssemblyInfoInputs.cache
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.AssemblyInfo.cs
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.csproj.CoreCompileInputs.cache
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.csproj.CopyComplete
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.dll
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.Core\obj\Debug\netstandard2.0\LinkShortener.Core.pdb

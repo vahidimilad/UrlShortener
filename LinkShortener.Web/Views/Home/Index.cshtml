@@ -1,0 +1,106 @@
+﻿@using LinkShortener.Core.DTOs.Site
+@using LinkShortener.Core.Services.Interfaces
+@model LinkShortener.DataLayer.Entities.Url.Url
+@{
+    ViewData["Title"] = "Main Page";
+    List<UrlViewModel> userUrlList = ViewData["UserUrlList"] as List<UrlViewModel>;
+    @inject IUrlService _UrlService;
+}
+<!-- Content Row -->
+<div class="row">
+
+    <!-- Total Clicks -->
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Total Clicks
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@_UrlService.CountUserLinksTotalClicks(1)</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-mouse fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Total Clicks -->
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Total Links
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@_UrlService.CountUserLinks(1)</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-link fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Content Row -->
+<div class="row">
+    <div class="col-xl-12">
+        <form method="post" asp-action="ShortenUrl">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-primary" type="submit">Convert</button>
+                </div>
+                <input type="text" asp-for="OriginalUrl" class="form-control" placeholder="example: https://yourlin.com/foo/bar...">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12">
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Last 30 days URLs</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Original URL</th>
+                                <th>Shortened URL</th>
+                                <th>Clicks</th>
+                                <th>Last time Clicked</th>
+                                <th>Created Date</th>
+                                <th>More Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in userUrlList)
+                            {
+                                <tr>
+                                    <td>@item.OriginalUrl</td>
+                                    <td><a href="@item.ShortUrl">@item.ShortUrl</a></td>
+                                    <td>@item.Clicks</td>
+                                    <td>@item.LastVisitedDate</td>
+                                    <td>@item.CreatedDate</td>
+
+                                    <td><a href="#"><i class="fas fa-link fa-2x text-gray-300"></i></a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

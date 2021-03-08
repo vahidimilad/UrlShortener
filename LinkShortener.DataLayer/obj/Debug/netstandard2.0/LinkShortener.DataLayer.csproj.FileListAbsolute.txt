@@ -1,0 +1,9 @@
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\bin\Debug\netstandard2.0\LinkShortener.DataLayer.deps.json
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\bin\Debug\netstandard2.0\LinkShortener.DataLayer.dll
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\bin\Debug\netstandard2.0\LinkShortener.DataLayer.pdb
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.AssemblyInfoInputs.cache
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.AssemblyInfo.cs
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.csproj.CoreCompileInputs.cache
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.dll
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.pdb
+F:\Programming\Projects\LinkShortener\LinkShortener\LinkShortener.DataLayer\obj\Debug\netstandard2.0\LinkShortener.DataLayer.csprojAssemblyReference.cache
